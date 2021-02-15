@@ -10,7 +10,23 @@
     font-size: 32px;
     font-weight: 600;
 }
-
+.screen-header__icon{
+    display: flex;
+    justify-content: space-between;
+}
 .screen-header__icon span{
     margin-left: 25px;
+}
+.screen-header__notification{
+    position: realative;
+}
+.screen-header__notice{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 18px;
+    top: 50px;
 }
